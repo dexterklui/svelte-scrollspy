@@ -1,0 +1,28 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+main {
+  margin-inline: auto;
+  margin-bottom: max(30vh, 10rem);
+  max-width: 800px;
+}
+
+section {
+  margin-block: min(16vh, 8rem);
+  scroll-margin-top: 10rem;
+}
+
+:is(h1, h2, p) {
+  margin-inline: auto;
+  text-align: center;
+}
+
+:is(h1, h2) {
+  margin-block: min(8vh, 2rem);
+}
+
+p {
+  max-width: 60ch;
+  line-height: 1.6em;
+}
