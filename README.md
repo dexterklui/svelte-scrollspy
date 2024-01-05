@@ -10,19 +10,19 @@ register any element for tracking.
 ## NPM
 
 ```
-npm i -D svelte-scrollspy
+npm i -D @dexq/svelte-scrollspy
 ```
 
 ## Yarn
 
 ```
-yarn add -D svelte-scrollspy
+yarn add -D @dexq/svelte-scrollspy
 ```
 
 ## bun
 
 ```
-bun i -d svelte-scrollspy
+bun i -d @dexq/svelte-scrollspy
 ```
 
 # Why Svelte ScrollSpy?
@@ -73,7 +73,7 @@ In the example, we set the `rootMargin` to `-50% 0px` so that a section starts
 intersecting when it touches the vertical center of the viewport.
 
 ```javascript
-import createScrollSpy from "svelte-scrollspy";
+import createScrollSpy from "@dexq/svelte-scrollspy";
 export const scrollSpy = createScrollSpy({ rootMargin: "-50% 0px" });
 ```
 
@@ -124,7 +124,7 @@ To do this, we create our custom Svelte store by extending the functionality of
 Scroll Spy.
 
 ```javascript
-import createScrollSpy from 'svelte-scrollspy';
+import createScrollSpy from '@dexq/svelte-scrollspy';
 import type { ActionReturn } from 'svelte/action';
 
 export const sectionSpy = (() => {
